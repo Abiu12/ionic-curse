@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
   standalone: false,
 })
 export class HomePage {
-
+  text: string = "Primero"
   constructor() {}
-
+  cambarTexto() {
+    this.text = "Segundo"
+  }
 }
